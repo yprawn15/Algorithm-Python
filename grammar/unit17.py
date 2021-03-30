@@ -58,6 +58,8 @@ while i <= 32 or 0 < j <= 5:
     i *= 2
     j -= 1
 
+
+
 x = int(input())
 while x >= 1350:
     print(x-1350)
