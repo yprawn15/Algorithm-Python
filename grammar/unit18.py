@@ -33,10 +33,11 @@ while i < 100:
 # for, while의 반복 코드가 없지만 반복문의 형태를 유지하고 싶다면 pass를 이용
 for i  in range(10):
     pass
-while True:
-    pass
+#while True: 씹함정 누르면 맛감 강종 하는법 crtl + c
+    #pass
 
 # 18.3.1 입력한 횟수대로 반복하기
+
 count = int(input('반복할 횟수를 입력하세요: '))
 
 i = 0
@@ -46,3 +47,39 @@ while True:
     if i == count:
         break
  
+ # 18.3.1 입력한 숫자까지 홀수 출력하기
+
+count = int(input('반복할 횟수 입력요망: '))
+for i in range(count + 1):
+    if i % 2 == 0:
+        continue
+    print(i)
+              
+# practice
+for i in range(1, 11):
+    if i % 3 == 0:
+        continue
+    print(i)
+
+
+
+i = 0
+while True:
+    if i % 10 != 3:
+        i += 1
+        continue
+    if i > 73:
+        break
+    print(i, end=' ')
+    i += 1
+
+start, stop = map(int, input().split())
+
+i = start
+
+while True:
+    if i % 10 != 3:
+        i += 1
+        continue
+    if i > stop:
+        break
