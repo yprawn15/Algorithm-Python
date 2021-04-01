@@ -1,13 +1,6 @@
-count = int(input())
-i = count
-for i in range(count):
-    for j in reversed(range(count)):
-        if j > i:
-            print(' ', end='')
-        else:print('*', end='')
-    for j in range(count):
-        if j < i:
-            print('*', end='')
-    print()
-
-
+a, b = map(int, input().split())
+c = list(range(a, b+1))
+c.pop(1)
+c.remove(b-1)
+d = [2**i for i in c]
+print(d)
