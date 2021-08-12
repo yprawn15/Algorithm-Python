@@ -16,3 +16,5 @@ while True:
     break
 
 print(count)
+
+print(8 % 10)
