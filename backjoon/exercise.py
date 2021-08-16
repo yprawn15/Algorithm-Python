@@ -1,8 +1,3 @@
-a = [5, 50, 50, 70, 80, 100]
-avg = 70
-num = 0
-for i in range(len(a)):
-  if avg < a[i]:
-    num += 1
+s = '9786'
 
-print(num)
+print(sum(list(map(int, s))))
