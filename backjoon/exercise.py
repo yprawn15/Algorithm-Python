@@ -1,3 +1,3 @@
-s = '9786'
+a = sorted('ABC'*3)
+print(*a, sep='')
 
-print(sum(list(map(int, s))))
