@@ -1,25 +1,17 @@
-w = list(input().upper()) # Mississipi
+s = input().upper() # 'MISSISSIPI'
 
-acnt = []
+w = sorted(list(set(s))) # ['I', 'M', 'P', 'S']
 
-for i in range(len(w)):
-    acnt.append(w.count(w[i]))
+arr = []
 
+for i in w:
+    arr.append(s.count(i)) # [4, 1, 1, 4]
 
+if arr.count(max(arr)) > 1: # arr.count(4) = 2
+    print('?') 
+else:
+    print(w[arr.index(max(arr))]) # arr.index(max(arr)) = 0, 3
 
-cnt = 0
-for j in range(len(acnt)):
-    if max(acnt) == acnt[j]:
-        cnt += 1
-
-print(cnt)
-
-# for k in range(len(w)):
-#     if w.count(w[k]) == max(acnt) and cnt == 1:
-#         print(w[i])
-#     else:
-#         print('?')
-
-
+# upper로 대문자로 만들어줌
 
 
