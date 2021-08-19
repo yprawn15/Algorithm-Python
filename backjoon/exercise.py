@@ -1,3 +1,3 @@
-a = sorted('ABC'*3)
-print(*a, sep='')
-
+str = 'abcabcabc'
+s = str.find('b')
+print(s)

@@ -25,7 +25,6 @@ print(a)
 
 
 
-
 # baekjoon
 # 0 1 2 3 4 5 7
 # a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -35,3 +34,13 @@ print(a)
 # 1 0 -1 -1 2 -1 -1 -1 -1 4 3 -1 -1 7 5 -1- 1- 
 
  
+# 2 
+S = input() # baekjoon
+a = list(range(97, 123)) # 아스키 코드(a~z)의 번호 
+
+for i in a:
+    print(S.find(chr(i)))
+
+# find() 문자열 내에 해당 문자열이 있는지 파악하고 있으면 해당 인덱스를 반환
+# chr() 문자열의 아스키 코드 숫자를 받으면 해당 문자열을 반환
+    
