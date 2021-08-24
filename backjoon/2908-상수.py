@@ -8,3 +8,5 @@ if int(A) > int(B):
 else: 
     print(int(B))
 
+# reversed와 reverse의 차이
+# reverse는 
