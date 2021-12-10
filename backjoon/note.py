@@ -1,2 +1,4 @@
-arr = list(map(str, range(1, 10)))
-print(arr)
+x = 5
+for i in range(2):
+    x -=1
+print(x)
