@@ -24,3 +24,5 @@ for i in range(t):
 # d = 10 ~ 12, cnt 6 move 3
 
 # move의 합이 d인 것을 이용한 풀이법
+
+
