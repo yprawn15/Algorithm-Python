@@ -1,2 +1,5 @@
-a = list(map(int, str(216)))
-print(a)
+a = 'bw'
+b = 'w'
+
+
+print(a+b)

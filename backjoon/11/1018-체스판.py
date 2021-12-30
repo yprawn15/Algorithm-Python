@@ -1,15 +1,5 @@
-n, m = map(int, input().split())
+# n, m = map(int, input().split())
 
-bw = []
-wb = []
+a = list(input())
 
-for _ in range(n):
-    a = input()
-    bw.append(a.count('BW'))
-    wb.append(a.count('WB'))
-
-print(bw)
-print(wb)
-
-print(sum(bw))
-print(sum(wb))
+print(a[1::2])
