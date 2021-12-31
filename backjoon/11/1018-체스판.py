@@ -1,5 +1,3 @@
-# n, m = map(int, input().split())
-
-a = list(input())
+a = 'BBWBWBWB'
 
 print(a[1::2])
